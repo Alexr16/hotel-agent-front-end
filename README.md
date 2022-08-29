@@ -10,6 +10,19 @@ This is the Front-end App for HotelAgent, an app in which you can reserve a hote
 - Cancel reservation.
 - see the list of your reservations
 - see the list of available hotels
+
+
+
+||      Landing       ||        Home        ||
+|-|----------------------|-| ----------------------|-|
+||<img width="350" alt="Screen Shot 2022-08-29 at 15 00 45" src="https://user-images.githubusercontent.com/95060298/187288759-a3e982b4-52d2-4038-93a6-5605df722be6.png">||<img width="350" alt="Screen Shot 2022-08-29 at 14 57 50" src="https://user-images.githubusercontent.com/95060298/187288862-29235bab-e391-4a33-9e1d-1d54aaea5f85.png">||
+|-|            Hotel List   |-|    My Reservations |-|
+||<img width="350" alt="Screen Shot 2022-08-29 at 15 01 06" src="https://user-images.githubusercontent.com/95060298/187289137-44baabb8-fd7c-49e0-b1c0-2fac14b4e7a6.png">||<img width="350" alt="Screen Shot 2022-08-29 at 15 01 50" src="https://user-images.githubusercontent.com/95060298/187289176-d37d7b1c-db5e-4913-b266-bf693c5e9400.png">||
+|-|      Reserve    |-|  Add a new Hotel    |-|
+||<img width="350" alt="Screen Shot 2022-08-29 at 15 01 20" src="https://user-images.githubusercontent.com/95060298/187289228-e3fd4ec1-c5ab-4eb8-b959-7e27119a80a8.png">||<img width="350" alt="Screen Shot 2022-08-29 at 15 01 13" src="https://user-images.githubusercontent.com/95060298/187289274-6cdb7466-b2f8-4e2e-8491-a4c22b22e7b2.png">||
+|-|      Mobile    |-|  Mobile    |-|
+||<img width="296" alt="Screen Shot 2022-08-29 at 15 02 30" src="https://user-images.githubusercontent.com/95060298/187289326-8e40a7bb-5c10-410c-8f56-61cde6f7cee1.png">||<img width="296" alt="Screen Shot 2022-08-29 at 15 02 55" src="https://user-images.githubusercontent.com/95060298/187289306-6843b71e-6db9-4716-84ec-0de8dd0729c1.png">||
+
 ## App functions: :wink:
 
 With Hotel  Agent, you can do the following:
