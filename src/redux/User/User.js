@@ -78,7 +78,6 @@ export const logInUser = (data) => async (dispatch) => {
     .then((res) => res.json())
     .then((res) => {
       dispatch(loginSuccess(res));
-      console.log(res);
       setToken(res.content.auth_token, res.user_id);
     })
     .then(() => {

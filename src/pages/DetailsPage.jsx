@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams, Link } from 'react-router-dom';
@@ -7,7 +6,6 @@ import { FiArrowRightCircle } from 'react-icons/fi';
 import { BsBookmarkCheckFill } from 'react-icons/bs';
 import { BiLeftArrow } from 'react-icons/bi';
 import Carousel from 'react-multi-carousel';
-import { createUser } from '../redux/User/User';
 import 'react-multi-carousel/lib/styles.css';
 
 const DetailsPage = () => {
@@ -55,17 +53,25 @@ const DetailsPage = () => {
           >
             {hotel[0].image.map((image) => (
               <div>
-              <img src={image} alt="hotel" key={image} className="details-img"/>
+                <img src={image} alt="hotel" key={image} className="details-img" />
               </div>
             ))}
           </Carousel>
         </div>
         <div className="hotel-details">
-          <p className="text-xl">📌 {hotel[0].address}</p>
+          <p className="text-xl">
+            📌
+            {' '}
+            {hotel[0].address}
+          </p>
           <div className="odd">
             <p>Price</p>
             <div className="views">
-              <p>$ {hotel[0].cost}</p>
+              <p>
+                $
+                {' '}
+                {hotel[0].cost}
+              </p>
             </div>
           </div>
           <div className="even">
@@ -79,7 +85,9 @@ const DetailsPage = () => {
           <Link to={`/reserve/${hotel[0].id}`}>
             <button type="button" className="button-details" label="Reserve">
               <BsBookmarkCheckFill />
-              Reserve <FiArrowRightCircle />
+              Reserve
+              {' '}
+              <FiArrowRightCircle />
             </button>
           </Link>
           )}
@@ -91,7 +99,6 @@ const DetailsPage = () => {
             type="button"
             className="button-return"
             label="Reserve"
-            onClick={() => dispatch(createUser())}
           >
             <BiLeftArrow />
           </button>
